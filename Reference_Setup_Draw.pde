@@ -1,18 +1,12 @@
 // add your Reference_Setup_Draw code here
-int x=50;
-int Y=50;
-int bounce=1;
-
-void setup() {
-  size(300,300);
+void setup(){
+  size(500,400);
+background(0);
 }
 
-void draw() {
-  background(219, 189, 237);
-  ellipse(50,50,100,100);
+void draw(){
+  fill(46, 255, 0);
+  ellipse(mouseX,mouseY,80,80);
 
-
-
-if(X>width-100 || X<0)
-{
-bounce=bounce*(-1);
+save("REFERENCE_Setup_Draw.");
+}
